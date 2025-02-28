@@ -4,13 +4,17 @@
 \alias{snakemake_log_analyser}
 \title{Analyse Snakemake runs}
 \usage{
-snakemake_log_analyser(project_folder)
+snakemake_log_analyser(project_folder, print_sacct = TRUE, no_return = TRUE)
 }
 \arguments{
 \item{project_folder}{Location of your project}
+
+\item{no_return}{logical, turn off the return value of the function}
+
+\item{print_feedback}{logical, should the sacct command be printed}
 }
 \value{
-Feedback and, if applicable a sacct command for further information
+A data.frame with the job information from the latest log file
 }
 \description{
 Get more inforamtion about the status of your snakemake run
