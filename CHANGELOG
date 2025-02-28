@@ -1,0 +1,8 @@
+# Detailed CHANGELOG for package SnakebiteTools
+
+Even version numbers are stable releases, off version numbers are developed versions
+
+Version 0.1.*:
+--------------------------------------------------------------------------------
+2: Startup message added to indicate the version number
+1: Initial commit with function 'snakemake_log_analyser()'
